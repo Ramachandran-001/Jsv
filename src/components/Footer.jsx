@@ -13,13 +13,13 @@ const Footer = () => {
               <a href="8870010339" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+              <a href="/contact" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
                 <Share2 className="w-5 h-5" />
               </a>
               <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
                 <Camera className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+              <a href="/contact" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
                 <Globe className="w-5 h-5" />
               </a>
             </div>
