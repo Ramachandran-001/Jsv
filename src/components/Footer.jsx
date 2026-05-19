@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-4 mt-2">
-              <a href="8870010339" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+              <a href="/contact" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a href="/contact" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
