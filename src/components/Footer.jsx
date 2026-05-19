@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, } from "lucide-react";
+import { Wind, MessageCircle, Share2, Camera, Globe, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,23 +8,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
           {/* Brand Info */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-bold text-foreground mb-2">About Us</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              Srivaigunda Group is dedicated to delivering sustainable solutions for a better future. We combine innovation with responsibility.
-            </p>
-            <div className="flex gap-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook className="w-5 h-5" />
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-4 mt-2">
+              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+                <MessageCircle className="w-5 h-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+                <Share2 className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+                <Camera className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
+                <Globe className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -36,18 +32,8 @@ const Footer = () => {
             <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors w-fit">About Us</Link>
             <Link to="/client-satisfaction" className="text-muted-foreground hover:text-primary transition-colors w-fit">Projects & Clients</Link>
             <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors w-fit">Contact Options</Link>
-            <Link to="/careers" className="text-muted-foreground hover:text-primary transition-colors w-fit">Careers</Link>
-            <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors w-fit">Blog</Link>
-          </div>
-
-          {/* Resources */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-bold text-foreground mb-2">Resources</h3>
-            <Link to="/privacy" className="text-muted-foreground hover:text-primary transition-colors w-fit">Privacy Policy</Link>
-            <Link to="/terms" className="text-muted-foreground hover:text-primary transition-colors w-fit">Terms of Service</Link>
-            <Link to="/faq" className="text-muted-foreground hover:text-primary transition-colors w-fit">FAQ</Link>
-            <Link to="/support" className="text-muted-foreground hover:text-primary transition-colors w-fit">Support</Link>
-            <Link to="/sitemap" className="text-muted-foreground hover:text-primary transition-colors w-fit">Sitemap</Link>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors w-fit">Careers</a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors w-fit">Blog</a>
           </div>
 
           {/* Contact Details */}
@@ -55,17 +41,17 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-foreground mb-2">Contact Info</h3>
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-              <p className="text-muted-foreground text-sm">
-                2/134 Ayya house, Ambalavanapuram, Mahendragiri post, Tirunelveli Dist-627 133, Tamil Nadu, India.
+              <p className="text-muted-foreground">
+                2/134 Ayya house ,Ambalavanapuram,Mahendragiri post,Tirunelveli Dist-627 133, Tamil Nadu, India.
               </p>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-              <a href="tel:+918870010339" className="text-muted-foreground hover:text-primary transition-colors">+91 8870010339</a>
+              <p className="text-muted-foreground">+91 8870010339</p>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-              <a href="mailto:srivaigunda@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">srivaigunda@gmail.com</a>
+              <p className="text-muted-foreground">srivaigunda@gmail.com</p>
             </div>
           </div>
 
