@@ -51,7 +51,6 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm text-center md:text-right">
             Designed with <span className="text-red-500">♥</span> for a sustainable future.
           </p>
-        </div>
       </div>
     </footer>
   );
