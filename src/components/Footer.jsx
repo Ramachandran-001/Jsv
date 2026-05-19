@@ -8,21 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
           {/* Brand Info */}
-          <div className="flex flex-col gap-6">
-            <div className="flex items-center gap-4 mt-2">
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
-                <MessageCircle className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
-                <Share2 className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
-                <Camera className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 rounded-full bg-background border border-white/10 hover:border-primary text-muted-foreground hover:text-primary transition-colors">
-                <Globe className="w-5 h-5" />
-              </a>
-            </div>
+         
           </div>
 
           {/* Quick Links */}
