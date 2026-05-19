@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
           {/* Brand Info */}
-         
-          </div>
+          {/* Add brand info content here if needed */}
 
           {/* Quick Links */}
           <div className="flex flex-col gap-4">
@@ -51,8 +50,8 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm text-center md:text-right">
             Designed with <span className="text-red-500">♥</span> for a sustainable future.
           </p>
+        </div>
       </div>
-    </div>
     </footer>
   );
 };
