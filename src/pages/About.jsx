@@ -28,22 +28,22 @@ const ownerData = [
   {
     name: "Vaigund Ganesh",
     role: "Founder & CEO",
-    image: "/public/image/g1.png",
+    image: "/image/g1.png",
   },
   {
     name: "Sasi Kumar",
     role: "Business Development Head",
-    image: "/public/image/sasi1.png",
+    image: "/image/sasi1.png",
   },
   {
     name: "Madhavan",
     role: "Accounts & Finance Head",
-    image: "/public/image/madhav.png",
+    image: "/image/madhav.png",
   },
   {
     name: "Ragupathi",
     role: "Admin",
-    image: "/public/image/R1.png",
+    image: "/image/R1.png",
   },
 ];
 
