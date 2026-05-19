@@ -20,7 +20,7 @@ const aboutData = [
   {
     title: "Solar Energy",
     description: "Awarded 'Green Tech Innovator of the Year' and celebrated for setting new industry benchmarks in efficiency.",
-    image: "/image/solar.png",
+    image:"https://jsv-zeta.vercel.app/image/solar.png",
   },
 ];
 
